@@ -5,7 +5,7 @@ body{
 
 h1{margin-bottom: 60px;
 text-align: left;
-border: 1px solid black;
+border: px solid black;
 }
 
 table{
@@ -23,6 +23,8 @@ th{
     text-align: left;
     border-radius: 10px;
     padding-left: 35px;
+    font-family:fantasy;
+    font-size: 35px;
     
 }
 
@@ -51,4 +53,17 @@ th{
     float: right;
     padding-right: 45px;
 }
+
+a:link{color: black;}
+
+a:hover{
+    text-shadow: 2px 2px 2px gray;
+    background-color:  #B4B4B8;
+border-radius: 0px 0px 20px 20px;
+    color: dimgrey;
+    transition: 0.8s;
+ transform:translate(5px);
+    
+}
+
 
